@@ -1,1 +1,8 @@
 # 例子主要说明spring的依赖注入和AOP
+1、例子中骑士接口Knight，有一个执行探险任务的方法embarkOnQuest
+
+2、DamselRescuingKnight类实现了Knight，在它的构造函数中new了一个RescueDamselQuest，使得DamselRescuingKnight和RescueDamselQuest紧密耦合，限制了骑士进行其他探险任务的能力。
+
+3、而BraveKnight没有自行创建探险任务，而是在构造的时候把探险任务作为构造器参数传入，这是依赖注入的方式之一，即构造器注入。更重要的是，传入的探险类型是Quest，也就是所有探险任务必须实现的一个接口，所以BraveKnigh能够响应RescueDamselQuest、SlayDragonQuest等任意Quest的实现。这里的要点是BraveKnight没有与任何特定的Quest实现耦合，这是DI带来的最大的收益。如果一个对象只通过接口（而不是具体实现或初始化过程）来表明依赖关系，那么这种依赖就能够在对象本身毫不知情的情况下，用不同的具体实现进行替换。
+
+
