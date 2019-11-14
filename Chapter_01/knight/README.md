@@ -1,4 +1,4 @@
-## spring的依赖注入
+## Spring的依赖注入
 1、例子中骑士接口Knight，有一个执行探险任务的方法embarkOnQuest
 
 2、DamselRescuingKnight类实现了Knight，在它的构造函数中new了一个RescueDamselQuest，使得DamselRescuingKnight和RescueDamselQuest紧密耦合，限制了骑士进行其他探险任务的能力。
