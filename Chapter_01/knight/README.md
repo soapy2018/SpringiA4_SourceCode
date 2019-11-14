@@ -1,4 +1,4 @@
-# 例子主要说明spring的依赖注入和AOP
+## spring的依赖注入和
 1、例子中骑士接口Knight，有一个执行探险任务的方法embarkOnQuest
 
 2、DamselRescuingKnight类实现了Knight，在它的构造函数中new了一个RescueDamselQuest，使得DamselRescuingKnight和RescueDamselQuest紧密耦合，限制了骑士进行其他探险任务的能力。
@@ -7,3 +7,5 @@
 
 4、创建类之间协作的行为（或者说是依赖关系）就是装配，Spring有多种装配bean的方式，包括XML（项目中knight.xml）、注解（类KnightConfig）等。不管是基于XML还是注解，DI带来的收益都是相同的，我们在编码BraveKnight时不需要写死它执行哪种具体的Quest，只有Spring通过它的配置了解这些类是如何依赖的，这样的话，就可以在不改变所依赖类的情况下修改依赖关系。
 
+## Spring AOP
+1、minstrel.xml中将minstrel bean声明为切面（需要先将minstrel声明为一个bean），定义了一个切点embark，在embarkOnQuest方法前调用切面的singBeforeQuest方法，在embarkOnQuest方法后调用切面的singAfterQuest方法。
