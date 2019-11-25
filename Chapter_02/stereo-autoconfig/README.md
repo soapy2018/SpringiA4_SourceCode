@@ -1,5 +1,10 @@
 自动装配
 ==================
+    Spring从两个角度实现自动化装配：
+        
+        一、组件扫描：通过 ComponentScan 注解自动发现应用上下文中的所创建的bean。
+        
+        二、自动装配：通过 Autowired 注解，Spring自动满足bean之间的依赖。
 1.配置类中开启自动扫描，参看类CDPlayerConfig
 
 @Configuration       //表明是配置类
