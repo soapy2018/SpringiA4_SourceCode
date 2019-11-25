@@ -18,8 +18,8 @@ public class xx {...}
 
 public class xx {
    
-   @Autowired      //用在任何方法上，spring会为方法自动装配依赖的bean，若找不到依赖的bean或有多于一个满足的bean都会报错，该注解与@Inject类似
+  &nbsp;&nbsp;&nbsp; @Autowired      /*用在任何方法上，spring会为方法自动装配依赖的bean，若找不到依赖的bean或有多于一个满足的bean都会报错，该注解与@Inject类似*/
    
-   public ff() {...}
+   &nbsp;&nbsp;&nbsp;&nbsp;public ff() {...}
  
 ... }
