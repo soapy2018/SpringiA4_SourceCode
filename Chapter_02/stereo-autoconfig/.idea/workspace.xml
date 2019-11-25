@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0b9fbea6-30c0-4bde-ab7c-e042f8e41640" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/soundsystem/CD2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/soundsystem/CDPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/soundsystem/CDPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/soundsystem/CDPlayerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/soundsystem/CDPlayerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/soundsystem/CompactDisc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/soundsystem/CompactDisc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/soundsystem/MediaPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/soundsystem/MediaPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/soundsystem/SgtPeppers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/soundsystem/SgtPeppers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/soundsystem/CDPlayerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/soundsystem/CDPlayerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/soundsystem/CDPlayerXMLConfigTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/soundsystem/CDPlayerXMLConfigTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/soundsystem/CDPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/soundsystem/CDPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/soundsystem/SgtPeppers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/soundsystem/SgtPeppers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/soundsystem/CDPlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/soundsystem/CDPlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stereo-javaconfig/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stereo-javaconfig/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stereo-javaconfig/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stereo-javaconfig/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stereo-javaconfig/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stereo-javaconfig/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stereo-javaconfig/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../stereo-javaconfig/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stereo-javaconfig/local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stereo-javaconfig/out/production/classes/soundsystem/CDPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stereo-javaconfig/out/production/classes/soundsystem/CDPlayerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stereo-javaconfig/out/production/classes/soundsystem/CompactDisc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stereo-javaconfig/out/production/classes/soundsystem/MediaPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stereo-javaconfig/out/production/classes/soundsystem/SgtPeppers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stereo-javaconfig/out/production/resources/META-INF/spring/app-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stereo-javaconfig/out/test/classes/soundsystem/CDPlayerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stereo-javaconfig/out/test/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stereo-javaconfig/src/test/java/soundsystem/CDPlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stereo-javaconfig/src/test/java/soundsystem/CDPlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_03/scopedbeans/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_03/scopedbeans/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_03/scopedbeans/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_05/Spittr/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_05/Spittr/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_05/Spittr/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_05/Spittr/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter_05/Spittr/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_05/Spittr/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter_05/Spittr/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/jsp/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/jsp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/jsp/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/jsp/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter_06/jsp/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/jsp/gretty.plugin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/jsp/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter_06/jsp/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/jsp/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter_06/jsp/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/tiles/out/production/classes/spittr/Spitter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/tiles/out/production/classes/spittr/Spittle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/tiles/out/production/classes/spittr/config/DataConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/tiles/out/production/classes/spittr/config/RootConfig$WebPackage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/tiles/out/production/classes/spittr/config/RootConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/tiles/out/production/classes/spittr/config/SpitterWebInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/tiles/out/production/classes/spittr/data/JdbcSpitterRepository$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/tiles/out/production/classes/spittr/data/JdbcSpitterRepository$SpitterRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/tiles/out/production/classes/spittr/data/JdbcSpitterRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/tiles/out/production/classes/spittr/data/JdbcSpittleRepository$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/tiles/out/production/classes/spittr/data/JdbcSpittleRepository$SpittleRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/tiles/out/production/classes/spittr/data/JdbcSpittleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/tiles/out/production/classes/spittr/data/SpitterRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/tiles/out/production/classes/spittr/data/SpittleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/tiles/out/production/classes/spittr/web/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/tiles/out/production/classes/spittr/web/SpitterController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/tiles/out/production/classes/spittr/web/SpittleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/tiles/out/production/classes/spittr/web/SpittleForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/tiles/out/production/classes/spittr/web/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/tiles/out/test/classes/spittr/web/HomeControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/tiles/out/test/classes/spittr/web/SpitterControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_06/tiles/out/test/classes/spittr/web/SpittleControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter_07/Spittr/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/gretty.plugin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/out/production/classes/spittr/Spitter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/out/production/classes/spittr/Spittle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/out/production/classes/spittr/config/DataConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/out/production/classes/spittr/config/RootConfig$WebPackage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/out/production/classes/spittr/config/RootConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/out/production/classes/spittr/config/SpitterWebInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/out/production/classes/spittr/data/JdbcSpitterRepository$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/out/production/classes/spittr/data/JdbcSpitterRepository$SpitterRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/out/production/classes/spittr/data/JdbcSpitterRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/out/production/classes/spittr/data/JdbcSpittleRepository$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/out/production/classes/spittr/data/JdbcSpittleRepository$SpittleRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/out/production/classes/spittr/data/JdbcSpittleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/out/production/classes/spittr/data/SpitterRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/out/production/classes/spittr/data/SpittleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/out/production/classes/spittr/web/AppWideExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/out/production/classes/spittr/web/DuplicateSpittleException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/out/production/classes/spittr/web/FileUploadController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/out/production/classes/spittr/web/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/out/production/classes/spittr/web/SpitterController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/out/production/classes/spittr/web/SpitterForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/out/production/classes/spittr/web/SpittleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/out/production/classes/spittr/web/SpittleForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/out/production/classes/spittr/web/SpittleNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/out/production/classes/spittr/web/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/out/test/classes/spittr/web/HomeControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/out/test/classes/spittr/web/SpitterControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_07/Spittr/out/test/classes/spittr/web/SpittleControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_08/SpringPizza/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter_08/SpringPizza/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_08/SpringPizza/gretty.plugin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_08/SpringPizza/out/production/classes/com/springinaction/pizza/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_08/SpringPizza/out/production/classes/com/springinaction/pizza/PaymentException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_08/SpringPizza/out/production/classes/com/springinaction/pizza/domain/CashOrCheckPayment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_08/SpringPizza/out/production/classes/com/springinaction/pizza/domain/CreditCardPayment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_08/SpringPizza/out/production/classes/com/springinaction/pizza/domain/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_08/SpringPizza/out/production/classes/com/springinaction/pizza/domain/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_08/SpringPizza/out/production/classes/com/springinaction/pizza/domain/Payment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_08/SpringPizza/out/production/classes/com/springinaction/pizza/domain/PaymentDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_08/SpringPizza/out/production/classes/com/springinaction/pizza/domain/PaymentType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_08/SpringPizza/out/production/classes/com/springinaction/pizza/domain/Pizza.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_08/SpringPizza/out/production/classes/com/springinaction/pizza/domain/PizzaSize.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_08/SpringPizza/out/production/classes/com/springinaction/pizza/domain/Topping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_08/SpringPizza/out/production/classes/com/springinaction/pizza/flow/PizzaFlowActions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_08/SpringPizza/out/production/classes/com/springinaction/pizza/flow/SpecialtyPizzaBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_08/SpringPizza/out/production/classes/com/springinaction/pizza/service/CustomerNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_08/SpringPizza/out/production/classes/com/springinaction/pizza/service/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_08/SpringPizza/out/production/classes/com/springinaction/pizza/service/CustomerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_08/SpringPizza/out/production/classes/com/springinaction/pizza/service/OrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_08/SpringPizza/out/production/classes/com/springinaction/pizza/service/PaymentProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_08/SpringPizza/out/production/classes/com/springinaction/pizza/service/PricingEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_08/SpringPizza/out/production/classes/com/springinaction/pizza/service/PricingEngineImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_08/SpringPizza/out/test/classes/com/springinaction/pizza/flow/PizzaFlowTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/gretty.plugin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/out/production/classes/spittr/Spitter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/out/production/classes/spittr/Spittle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/out/production/classes/spittr/config/DataConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/out/production/classes/spittr/config/MethodSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/out/production/classes/spittr/config/RootConfig$WebPackage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/out/production/classes/spittr/config/RootConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/out/production/classes/spittr/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/out/production/classes/spittr/config/SecurityWebInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/out/production/classes/spittr/config/SpitterWebInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/out/production/classes/spittr/data/JdbcSpitterRepository$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/out/production/classes/spittr/data/JdbcSpitterRepository$SpitterRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/out/production/classes/spittr/data/JdbcSpitterRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/out/production/classes/spittr/data/JdbcSpittleRepository$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/out/production/classes/spittr/data/JdbcSpittleRepository$SpittleRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/out/production/classes/spittr/data/JdbcSpittleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/out/production/classes/spittr/data/SpitterRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/out/production/classes/spittr/data/SpittleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/out/production/classes/spittr/web/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/out/production/classes/spittr/web/SpitterController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/out/production/classes/spittr/web/SpittleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/out/production/classes/spittr/web/SpittleForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/out/production/classes/spittr/web/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/out/test/classes/spittr/web/HomeControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/out/test/classes/spittr/web/SpitterControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_09/thymeleaf/out/test/classes/spittr/web/SpittleControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_10/jdbc/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_10/jdbc/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_10/jdbc/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_10/jdbc/out/production/classes/spittr/db/SpitterRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_10/jdbc/out/production/classes/spittr/db/SpittleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_10/jdbc/out/production/classes/spittr/db/jdbc/JdbcSpitterRepository$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_10/jdbc/out/production/classes/spittr/db/jdbc/JdbcSpitterRepository$SpitterRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_10/jdbc/out/production/classes/spittr/db/jdbc/JdbcSpitterRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_10/jdbc/out/production/classes/spittr/db/jdbc/JdbcSpittleRepository$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_10/jdbc/out/production/classes/spittr/db/jdbc/JdbcSpittleRepository$SpittleRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_10/jdbc/out/production/classes/spittr/db/jdbc/JdbcSpittleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_10/jdbc/out/production/classes/spittr/domain/Spitter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_10/jdbc/out/production/classes/spittr/domain/Spittle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_10/jdbc/out/production/resources/spittr/db/jdbc/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_10/jdbc/out/test/classes/spittr/jdbc/JdbcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_10/jdbc/out/test/classes/spittr/jdbc/JdbcSpitterRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_10/jdbc/out/test/classes/spittr/jdbc/JdbcSpittleRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_10/jdbc/out/test/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_10/jdbc/out/test/resources/spittr/db/jdbc/JdbcRepositoryTests-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_10/jdbc/out/test/resources/spittr/db/jdbc/test-data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/hibernate4/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/hibernate4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/hibernate4/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/hibernate4/out/production/classes/spittr/db/SpitterRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/hibernate4/out/production/classes/spittr/db/SpittleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/hibernate4/out/production/classes/spittr/db/hibernate4/HibernateSpitterRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/hibernate4/out/production/classes/spittr/db/hibernate4/HibernateSpittleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/hibernate4/out/production/classes/spittr/domain/Spitter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/hibernate4/out/production/classes/spittr/domain/Spittle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/hibernate4/out/production/resources/spittr/db/hibernate4/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/hibernate4/out/test/classes/spittr/db/hibernate4/RepositoryTestConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/hibernate4/out/test/classes/spittr/db/hibernate4/SpitterRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/hibernate4/out/test/classes/spittr/db/hibernate4/SpittleRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/hibernate4/out/test/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/hibernate4/out/test/resources/spittr/db/hibernate4/RepositoryTest-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/hibernate4/out/test/resources/spittr/db/hibernate4/test-data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/jpa-springdata/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/jpa-springdata/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/jpa-springdata/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/jpa-springdata/out/production/classes/spittr/db/SpitterRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/jpa-springdata/out/production/classes/spittr/db/SpitterRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/jpa-springdata/out/production/classes/spittr/db/SpitterSweeper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/jpa-springdata/out/production/classes/spittr/db/SpittleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/jpa-springdata/out/production/classes/spittr/db/SpittleRepositoryCustom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/jpa-springdata/out/production/classes/spittr/db/SpittleRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/jpa-springdata/out/production/classes/spittr/db/SpringDataJpaConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/jpa-springdata/out/production/classes/spittr/domain/Spitter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/jpa-springdata/out/production/classes/spittr/domain/Spittle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/jpa-springdata/out/production/resources/spittr/db/jpa/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/jpa-springdata/out/test/classes/spittr/db/jpa/JpaConfig$TransactionConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/jpa-springdata/out/test/classes/spittr/db/jpa/JpaConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/jpa-springdata/out/test/classes/spittr/db/jpa/SpitterRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/jpa-springdata/out/test/classes/spittr/db/jpa/SpittleRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/jpa-springdata/out/test/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/jpa-springdata/out/test/resources/spittr/db/jpa/RepositoryTest-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_11/jpa-springdata/out/test/resources/spittr/db/jpa/test-data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_12/neo4j/out/production/classes/orders/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_12/neo4j/out/production/classes/orders/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_12/neo4j/out/production/classes/orders/config/Neo4jConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_12/neo4j/out/production/classes/orders/db/OrderRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_12/neo4j/out/test/classes/orders/Neo4jTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_12/neo4j/out/test/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_21/contacts/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_21/contacts/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_21/contacts/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_21/contacts/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../Chapter_21/contacts/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_21/contacts/out/production/classes/contacts/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_21/contacts/out/production/classes/contacts/Contact.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_21/contacts/out/production/classes/contacts/ContactController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_21/contacts/out/production/classes/contacts/ContactRepository$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_21/contacts/out/production/classes/contacts/ContactRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_21/contacts/out/production/resources/public/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_21/contacts/out/production/resources/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter_21/contacts/out/production/resources/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springcloud-book/chapter10" beforeDir="false" afterPath="$PROJECT_DIR$/../../../springcloud-book/chapter10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springcloud-book/chapter10-3" beforeDir="false" afterPath="$PROJECT_DIR$/../../../springcloud-book/chapter10-3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springcloud-book/chapter12" beforeDir="false" afterPath="$PROJECT_DIR$/../../../springcloud-book/chapter12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springcloud-book/chapter15" beforeDir="false" afterPath="$PROJECT_DIR$/../../../springcloud-book/chapter15" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springcloud-book/chapter16" beforeDir="false" afterPath="$PROJECT_DIR$/../../../springcloud-book/chapter16" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springcloud-book/chapter4-2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../springcloud-book/chapter4-2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springcloud-book/chapter5-2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../springcloud-book/chapter5-2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springcloud-book/chapter6-3" beforeDir="false" afterPath="$PROJECT_DIR$/../../../springcloud-book/chapter6-3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springcloud-book/chapter6-4" beforeDir="false" afterPath="$PROJECT_DIR$/../../../springcloud-book/chapter6-4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springcloud-book/chapter7" beforeDir="false" afterPath="$PROJECT_DIR$/../../../springcloud-book/chapter7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springcloud-book/chapter8-5" beforeDir="false" afterPath="$PROJECT_DIR$/../../../springcloud-book/chapter8-5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springcloud-book/chapter8-8" beforeDir="false" afterPath="$PROJECT_DIR$/../../../springcloud-book/chapter8-8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springcloud-book/chapter9" beforeDir="false" afterPath="$PROJECT_DIR$/../../../springcloud-book/chapter9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/docker reposit/ssm_demo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/.postcssrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/build/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/build/check-versions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/build/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/build/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/build/vue-loader.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/build/webpack.base.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/build/webpack.dev.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/build/webpack.prod.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/config/dev.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/config/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/config/prod.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/src/components/common/BlogFooter.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/src/components/common/BlogHeader.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/src/components/home/BlogIndex.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/src/components/manage/BlogLogin.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-blog-vue/static/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-vue/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-vue/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-vue/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-vue/.postcssrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-vue/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-vue/build/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-vue/build/check-versions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-vue/build/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-vue/build/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-vue/build/vue-loader.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-vue/build/webpack.base.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-vue/build/webpack.dev.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-vue/build/webpack.prod.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-vue/config/dev.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-vue/config/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-vue/config/prod.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-vue/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-vue/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-vue/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-vue/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-vue/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-vue/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-vue/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-vue/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/javalsj-vue/static/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/ssm_demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/ssm_demo/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/ssm_demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/ssm_demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/ssm_demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/ssm_demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/ssm_demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/ssm_demo/src/main/java/com/cqf/ssm_demo/SsmDemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/ssm_demo/src/main/java/com/cqf/ssm_demo/controller/LoginAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/ssm_demo/src/main/java/com/cqf/ssm_demo/model/bean/common/JsonResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/ssm_demo/src/main/java/com/cqf/ssm_demo/model/bean/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/ssm_demo/src/main/java/com/cqf/ssm_demo/model/dao/UserDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/ssm_demo/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/ssm_demo/src/main/resources/mapper/UserDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/ssm_demo/src/test/java/com/cqf/ssm_demo/SsmDemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/ssm_demo/user.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/vue-demo/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/vue-demo/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/vue-demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/vue-demo/.postcssrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/vue-demo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/vue-demo/build/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/vue-demo/build/check-versions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/vue-demo/build/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/vue-demo/build/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/vue-demo/build/vue-loader.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/vue-demo/build/webpack.base.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/vue-demo/build/webpack.dev.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/vue-demo/build/webpack.prod.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/vue-demo/config/dev.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/vue-demo/config/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/vue-demo/config/prod.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/vue-demo/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/vue-demo/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/vue-demo/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/vue-demo/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/vue-demo/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/vue-demo/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/vue-demo/src/components/home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/vue-demo/src/components/login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/vue-demo/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/vue-demo/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../vue-workspace/vue-demo/static/.gitkeep" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="stereo-autoconfig" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="stereo-autoconfig" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="stereo-autoconfig" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="stereo-autoconfig" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="stereo-autoconfig" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/soundsystem.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/soundsystem/CDPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/soundsystem/CompactDisc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/soundsystem/MediaPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/soundsystem/SgtPeppers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/soundsystem/CDPlayerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/soundsystem/CDPlayerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+              <folding>
+                <element signature="e#737#738#0" expanded="true" />
+                <element signature="e#764#765#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/soundsystem/CDPlayerXMLConfigTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+              <folding>
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#794#795#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/soundsystem/CDPlayerTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1890" />
+    <option name="height" value="960" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="stereo-autoconfig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stereo-autoconfig" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="stereo-autoconfig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stereo-autoconfig" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stereo-autoconfig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stereo-autoconfig" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stereo-autoconfig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stereo-autoconfig" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stereo-autoconfig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stereo-autoconfig" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="stereo-autoconfig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stereo-autoconfig" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stereo-autoconfig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stereo-autoconfig" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="soundsystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stereo-autoconfig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stereo-autoconfig" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stereo-autoconfig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stereo-autoconfig" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stereo-autoconfig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stereo-autoconfig" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stereo-autoconfig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stereo-autoconfig" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="stereo-autoconfig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stereo-autoconfig" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stereo-autoconfig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stereo-autoconfig" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="soundsystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.CDPlayerXMLConfigTest">
+    <configuration name="stereo-autoconfig [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CDPlayerTest.cdShouldNotBeNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stereo-autoconfig.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="soundsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="soundsystem" />
+      <option name="MAIN_CLASS_NAME" value="soundsystem.CDPlayerTest" />
+      <option name="METHOD_NAME" value="cdShouldNotBeNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CDPlayerTest.play" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stereo-autoconfig.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="soundsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="soundsystem" />
+      <option name="MAIN_CLASS_NAME" value="soundsystem.CDPlayerTest" />
+      <option name="METHOD_NAME" value="play" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CDPlayerXMLConfigTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stereo-autoconfig.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="soundsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="soundsystem" />
+      <option name="MAIN_CLASS_NAME" value="soundsystem.CDPlayerXMLConfigTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CDPlayerXMLConfigTest" />
+        <item itemvalue="JUnit.CDPlayerTest.play" />
+        <item itemvalue="JUnit.CDPlayerTest.cdShouldNotBeNull" />
+        <item itemvalue="Gradle.stereo-autoconfig [clean]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b9fbea6-30c0-4bde-ab7c-e042f8e41640" name="Default Changelist" comment="" />
+      <created>1574662854107</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574662854107</updated>
+      <workItem from="1574662860039" duration="3097000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="CDPlayerTest_cdShouldNotBeNull - 2019.11.25 at 14h 29m 59s.xml">
+      <configuration name="CDPlayerTest.cdShouldNotBeNull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CDPlayerTest_play - 2019.11.25 at 14h 30m 14s.xml">
+      <configuration name="CDPlayerTest.play" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CDPlayerTest_play - 2019.11.25 at 14h 30m 47s.xml">
+      <configuration name="CDPlayerTest.play" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CDPlayerTest_play - 2019.11.25 at 14h 31m 00s.xml">
+      <configuration name="CDPlayerTest.play" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CDPlayerTest_play - 2019.11.25 at 14h 31m 37s.xml">
+      <configuration name="CDPlayerTest.play" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CDPlayerTest_play - 2019.11.25 at 14h 32m 11s.xml">
+      <configuration name="CDPlayerTest.play" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CDPlayerTest_play - 2019.11.25 at 14h 35m 14s.xml">
+      <configuration name="CDPlayerTest.play" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3097000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20291026" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Build" weight="0.32978722" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" visible="true" weight="0.32983023" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/soundsystem/CDPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/soundsystem/CompactDisc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/soundsystem/MediaPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/soundsystem/SgtPeppers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/soundsystem.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/soundsystem/CDPlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+          <folding>
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/soundsystem/CDPlayerXMLConfigTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding>
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/soundsystem/CDPlayerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
