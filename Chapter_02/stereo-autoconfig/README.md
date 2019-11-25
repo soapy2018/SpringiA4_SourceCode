@@ -8,8 +8,10 @@
 @Configuration       //表明是配置类
 
 @ComponentScan      /*启用组件自动扫描（可指定扫描路径），默认扫描该类路径及子路径下的@Component注解类，并为其创建bean */
-
+     
 public class xx {...}
+
+也可通过XML开启组件扫描，配置方法参看xml文件soundsystem.xml
 
 2.定义组件类，使其可被发现并自动创建，参看类CDPlayer和SgtPeppers
 
@@ -28,3 +30,5 @@ public class xx {
    &nbsp;&nbsp;&nbsp;&nbsp;   public ff() {...}
  
 ... }
+
+测试类CDPlayerTest和CDPlayerXMLConfigTest分别展示了jave类配置和xml配置下自动装配的实现。测试类使用Spring的SpringJUnit4ClassRunner自动创建Spring的应用上下文，注解ContextConfiguration表示需要加载java类配置或xml配置。
