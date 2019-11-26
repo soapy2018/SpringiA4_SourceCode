@@ -1,14 +1,13 @@
-Chapter 2 Examples
+XML配置bean
 ==================
-This folder contains example code for chapter 2 of Spring in Action, 4th Edition.
-The samples are split across multiple directories:
+对于构造器注入，有两种基本的配置方案：
 
- * stereo-autoconfig  : Examples illustrating component-scanning and auto-wiring for section 2.2.
- * stereo-javaconfig  : Examples illustrating Java configuration for section 2.3.
- * stereo-xmlconfig   : Examples illustrating XML configuration for section 2.4.
- * stereo-mixedconfig : Examples illustrating mixed XML and Java configuration for section 2.5.
+一、<constructor-arg>元素
+  
+二、使用Spring3.0所引入的c-命名空间
 
-Note that because the examples evolve throughout the chapter and the book's text sometimes
-shows multiple ways of accomplishing a goal, not all variations of the code in the book will
-be represented in these samples. You are invited to use this source code as a starting point
-and experiment using the variations presented in the text.
+对于属性注入，也有两种基本的配置方案：
+
+一、<property>元素
+  
+二、p-命名空间
