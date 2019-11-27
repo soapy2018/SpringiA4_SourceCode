@@ -25,7 +25,9 @@ public class xx {
 ... }
 
 注：Profile注解也可在类级别使用，这样的话，类中的bean只有对应的Profile激活时才会被创建
-          激活profile，用到l两个个参数spring.profiles.active和spring.profiles.default ，有多种方法来设置这两个参数：
+          
+激活profile，用到l两个个参数spring.profiles.active和spring.profiles.default ，有多种方法来设置这两个参数：
+          
 1.作为DispatcherServlet的初始化参数
 
 2.作为web应用的上下文参数
