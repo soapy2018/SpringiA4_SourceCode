@@ -24,9 +24,13 @@ bean的作用域包括：
 @Bean 或者 @Component
 
 @Scope(
+        
         value=WebApplicationContext.SCOPE_SESSION,     //会话 
-        //value=WebApplicationContext.SCOPE_REQUEST //请求
-        proxyMode=ScopedProxyMode.INTERFACES)        /* 当需要将会话或者请求作用域的bean注入单例bean时，此属性表示用动态代理注入，Spring会注入一                                                      个bean的代理，此时bean是接口类型 */
+        
+        //value=WebApplicationContext.SCOPE_REQUEST   //请求
+        
+        proxyMode=ScopedProxyMode.INTERFACES)        /* 当需要将会话或者请求作用域的bean注入单例bean时，此属性表示用动态代理注入，Spring会注入一个bean的代理，此时bean是接口类型 */
+        
         //proxyMode=ScopedProxyMode.TARGET_CLASS //如果bean类型是具体类的话，用CGLIB生成基于类的代理    
 ）
 方法
