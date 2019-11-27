@@ -31,8 +31,9 @@ bean的作用域包括：
         
         proxyMode=ScopedProxyMode.INTERFACES)        /* 当需要将会话或者请求作用域的bean注入单例bean时，此属性表示用动态代理注入，Spring会注入一个bean的代理，此时bean是接口类型 */
         
-        //proxyMode=ScopedProxyMode.TARGET_CLASS //如果bean类型是具体类的话，用CGLIB生成基于类的代理    
+        //proxyMode=ScopedProxyMode.TARGET_CLASS   //如果bean类型是具体类的话，用CGLIB生成基于类的代理    
 ）
+
 方法
 
 动态代理示意图：
