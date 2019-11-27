@@ -38,3 +38,5 @@ bean的作用域包括：
 
 动态代理示意图：
 
+![Aaron Swartz]（https://github.com/soapy2018/MarkdownPhotos/raw/master/Image1.png）
+
